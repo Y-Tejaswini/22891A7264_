@@ -22,4 +22,4 @@ All data is stored in **localStorage**, so it persists across browser refreshes.
 
 
 Repository for Frontend Test Submission and Logging Middleware docs.
-![App Screenshot]("https://github.com/Y-Tejaswini/22891A7264_/blob/main/22891A7264_/screenshots/Screenshot%20(14).png")
+![App Screenshot](./screenshots/Screenshot%20(14).png)
