@@ -15,7 +15,6 @@ All data is stored in **localStorage**, so it persists across browser refreshes.
 
 ## 🛠️ Tech Stack
 - **React.js**
-)
 
 ---
 
@@ -23,4 +22,4 @@ All data is stored in **localStorage**, so it persists across browser refreshes.
 
 
 Repository for Frontend Test Submission and Logging Middleware docs.
-![App Screenshot](images/screenshot1.png)
+![App Screenshot]("C:\Users\tejaswini\Downloads\22891A7264_\screenshots\Screenshot (14).png")
