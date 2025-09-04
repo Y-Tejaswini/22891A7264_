@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frontend Test Submission - URL Shortener</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function(){
+        try {
+          const key = 'appLogs';
+          if(!localStorage.getItem(key)) {
+            const sample = [
+              { id: '1', time: new Date().toISOString(), stack: 'frontend', level: 'info', package: 'page', message: 'App started successfully' },
+              { id: '2', time: new Date().toISOString(), stack: 'frontend', level: 'warn', package: 'component', message: 'Invalid URL entered' },
+              { id: '3', time: new Date().toISOString(), stack: 'frontend', level: 'debug', package: 'api', message: 'Fetching shortened URL...' },
+              { id: '4', time: new Date().toISOString(), stack: 'frontend', level: 'error', package: 'api', message: 'API request failed' }
+            ];
+            localStorage.setItem(key, JSON.stringify(sample));
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </body>
+</html>
